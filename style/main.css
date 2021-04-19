@@ -53,6 +53,7 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 100%, 0% 0%;
   background-size: 50%, 50%;
+  min-height: 100vh;
 }
 
 h1 {
@@ -76,6 +77,7 @@ h4 {
 }
 
 .container {
+  max-width: 1440px;
   margin: 2rem;
 }
 
@@ -146,17 +148,18 @@ h4 {
   padding-top: 1rem;
 }
 
-@media only screen and (min-width: 96em) {
+@media only screen and (min-width: 90em) {
   body {
     background-image: url("../images/bg-pattern-bottom-desktop.svg"),
       url("../images/bg-pattern-top-desktop.svg");
     background-repeat: no-repeat;
     background-position: 110% 102%, 0% 0%;
     background-size: 25%, 25%;
+ 
   }
 
   .container {
-    margin: 10rem;
+    margin: 6rem auto;
   }
 
   .about-us {

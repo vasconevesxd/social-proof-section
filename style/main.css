@@ -148,7 +148,7 @@ h4 {
   padding-top: 1rem;
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 85em) {
   body {
     background-image: url("../images/bg-pattern-bottom-desktop.svg"),
       url("../images/bg-pattern-top-desktop.svg");
